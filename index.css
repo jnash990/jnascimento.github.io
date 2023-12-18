@@ -57,6 +57,10 @@ body::-webkit-scrollbar {
     align-items: center;
 }
 
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
 .align-start{
     align-items: flex-start;
 }
@@ -148,6 +152,54 @@ body::-webkit-scrollbar {
 
 .margin-top-xl{
     margin-top: 50px;
+}
+
+.margin-left-s{
+    margin-left: 20px;
+}
+
+.margin-left-m{
+    margin-left: 30px;
+}
+
+.margin-left-l{
+    margin-left: 40px;
+}
+
+.margin-left-xl{
+    margin-left: 50px;
+}
+
+.margin-right-s{
+    margin-right: 20px;
+}
+
+.margin-right-m{
+    margin-right: 30px;
+}
+
+.margin-right-l{
+    margin-right: 40px;
+}
+
+.margin-right-xl{
+    margin-right: 50px;
+}
+
+.margin-bottom-s{
+    margin-bottom: 20px;
+}
+
+.margin-bottom-m{
+    margin-bottom: 30px;
+}
+
+.margin-bottom-l{
+    margin-bottom: 40px;
+}
+
+.margin-bottom-xl{
+    margin-bottom: 50px;
 }
 
 .margin-side-l{
@@ -316,4 +368,10 @@ footer{
 .border-box{
     width: 200px;
     border: 2px gainsboro solid;
+}
+
+.certification-child{
+    flex: 1 0 30%;
+    margin: 5px;
+    justify-content: center;
 }
