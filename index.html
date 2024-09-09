@@ -8,14 +8,35 @@
         <script type="text/javascript" src="./index.js"></script>
         <meta charset='UTF-8'/>
         <!-- Google tag (gtag.js) -->
-            <script async src="https://www.googletagmanager.com/gtag/js?id=G-50TZMERZ82"></script>
-            <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-50TZMERZ82"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-            gtag('config', 'G-50TZMERZ82');
-            </script>
+        gtag('config', 'G-50TZMERZ82');
+        </script>
+        <script>
+            window.axeptioSettings = {
+              clientId: "66df152e239b0262bf5e5db2",
+              cookiesVersion: "personal-en-EU",
+              googleConsentMode: {
+                default: {
+                  analytics_storage: "denied",
+                  ad_storage: "denied",
+                  ad_user_data: "denied",
+                  ad_personalization: "denied",
+                  wait_for_update: 500
+                }
+              }
+            };
+             
+            (function(d, s) {
+              var t = d.getElementsByTagName(s)[0], e = d.createElement(s);
+              e.async = true; e.src = "//static.axept.io/sdk.js";
+              t.parentNode.insertBefore(e, t);
+            })(document, "script");
+        </script>
     </head>
     <body>
         <div class="wiz hide">
@@ -169,27 +190,6 @@
                 <div>Joao Nascimento</div>
                 <div>mail@jnascimento.dev</div>
             </div>
-            <script>
-                window.axeptioSettings = {
-                  clientId: "66df152e239b0262bf5e5db2",
-                  cookiesVersion: "personal-en-EU",
-                  googleConsentMode: {
-                    default: {
-                      analytics_storage: "denied",
-                      ad_storage: "denied",
-                      ad_user_data: "denied",
-                      ad_personalization: "denied",
-                      wait_for_update: 500
-                    }
-                  }
-                };
-                 
-                (function(d, s) {
-                  var t = d.getElementsByTagName(s)[0], e = d.createElement(s);
-                  e.async = true; e.src = "//static.axept.io/sdk.js";
-                  t.parentNode.insertBefore(e, t);
-                })(document, "script");
-                </script>
         </footer>
     </body>
 </html>
